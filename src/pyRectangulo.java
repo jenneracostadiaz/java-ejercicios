@@ -8,7 +8,7 @@ public class pyRectangulo {
 
         //ENTRADA
         System.out.println("Ingresar tu nombre:");
-        nombre = ingreso .nextLine();
+        nombre = ingreso.nextLine();
         System.out.println("Ingresar la altura del rectángulo:");
         h = ingreso.nextInt();
         System.out.println("Ingresar la base del rectángulo:");
@@ -19,8 +19,8 @@ public class pyRectangulo {
         perimetro = b+b+h+h;
 
         //SALIDA
-        System.out.println("Estimado:"+nombre+"las respuestas son:");
+        System.out.println("Estimado: "+nombre+" las respuestas son:");
         System.out.println("El perímetro es: " + perimetro);
-        System.out.println("El área es: = " + area);
+        System.out.println("El área es: " + area);
     }
 }
