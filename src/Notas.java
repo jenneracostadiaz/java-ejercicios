@@ -27,7 +27,8 @@ public class Notas {
             mensaje = "Malo";
         }
 
-        System.out.println("mensaje = " + mensaje);
+        //SALIDA
+        System.out.println("La nota " + nota + " es " + mensaje);
 
     }
 }
