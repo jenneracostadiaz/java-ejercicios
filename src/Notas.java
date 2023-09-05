@@ -4,6 +4,7 @@ public class Notas {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int nota;
+        String mensaje = "";
 
         //Entrada
         System.out.println("Ingrese la nota del alumno:");
@@ -11,20 +12,22 @@ public class Notas {
 
         //Proceso
         if (nota > 18 && nota <= 20){
-            System.out.println("Excelente");
+            mensaje = "Excelente";
         }
 
         if (nota > 15 && nota <= 18){
-            System.out.println("Bueno");
+            mensaje = "Bueno";
         }
 
         if (nota > 13 && nota <= 15){
-            System.out.println("Regular");
+            mensaje = "Regular";
         }
 
         if (nota < 13 && nota >= 0){
-            System.out.println("Malo");
+            mensaje = "Malo";
         }
+
+        System.out.println("mensaje = " + mensaje);
 
     }
 }
