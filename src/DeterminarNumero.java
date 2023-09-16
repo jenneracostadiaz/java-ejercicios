@@ -1,14 +1,10 @@
 import java.util.Scanner;
 
-public class DeterminarNumero {
+public class DetNumber {
     Scanner entrada = new Scanner(System.in);
-    int numero;
+
+    int number;
 
     //Entrada
     System.out.println("Ingrese un número: ");
-    numero = entrada.nextInt();
-
-    //Proceso
-
-    //Salida
 }
